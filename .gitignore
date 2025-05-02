@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log files
+logs/
+*.log
+activity_debug.txt
+
+# VS Code settings
+.vscode/
+
+# Environment
+venv/
+env/
+.env

@@ -3,6 +3,7 @@ import logging
 import threading
 import signal
 import datetime
+import os
 from .activity_monitor import ActivityMonitor
 from .process_monitor import ProcessMonitor
 from .power_manager_windows import PowerManagerWindows
@@ -48,7 +49,7 @@ class PowerController:
         self.last_power_plan = None
         
         # Activity log file
-        self.activity_log_file = "activity_debug.txt"
+        self.activity_log_file = os.path.join("logs", "activity_debug.txt")
         
         logger.info(f"PowerController initialized with idle threshold: {self.idle_threshold}s")
         

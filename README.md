@@ -4,15 +4,14 @@ Smart Power Manager là một ứng dụng tự động điều chỉnh chế đ
 
 ## Tính năng
 
-- **Chuyển sang chế độ Hiệu suất cao (High Performance)** khi phát hiện các ứng dụng nặng đang chạy (trò chơi, trình biên tập video, trình duyệt web,...)
-- **Chuyển sang chế độ Tiết kiệm pin (Power Saver)** khi người dùng không hoạt động trong một khoảng thời gian có thể cấu hình
-- **Quay lại chế độ Cân bằng (Balanced)** trong các trường hợp khác
-- **Theo dõi hoạt động thực tế của bàn phím và chuột** để phát hiện chính xác thời gian không hoạt động
+- **Chuyển sang chế độ Hiệu suất cao (High Performance)** khi phát hiện các ứng dụng nặng đang chạy
+- **Chế độ Turbo** cho các ứng dụng đặc biệt được cấu hình trong nhóm turbo
+- **Chuyển sang chế độ Tiết kiệm pin (Power Saver)** khi người dùng không hoạt động
+- **Quay lại chế độ Cân bằng (Balanced)** trong các trường hợp thông thường
+- **Theo dõi hoạt động thực tế** của bàn phím và chuột để phát hiện chính xác thời gian không hoạt động
 - **Hỗ trợ chạy như dịch vụ Windows** để tự động khởi động cùng hệ thống
+- **Ghi log chi tiết** vào thư mục logs để theo dõi hoạt động của ứng dụng
 - **Tùy chỉnh linh hoạt** thông qua file cấu hình settings.ini
-- **Thu thập dữ liệu sử dụng tài nguyên** (CPU, RAM, GPU) của hệ thống và ứng dụng
-- **Theo dõi thời gian sử dụng ứng dụng** và ghi lại thời lượng sử dụng
-- **Ghi lại thay đổi chế độ nguồn** tự động và thủ công
 
 ## Yêu cầu hệ thống
 
@@ -22,46 +21,38 @@ Smart Power Manager là một ứng dụng tự động điều chỉnh chế đ
 
 ## Cài đặt
 
-### Cài đặt thông thường (Chạy khi cần)
+### Cài đặt thông thường
 
 1. **Cài đặt các gói phụ thuộc:**
-
    ```bash
    pip install -r requirements.txt
    ```
 
 2. **Cấu hình GUID của các chế độ năng lượng:**
-
    - Mở Command Prompt (cmd) với quyền Administrator
-   - Chạy lệnh `powercfg /list` để xem các chế độ năng lượng có sẵn và GUID của chúng
-   - Sao chép các GUID cho chế độ High Performance, Balanced, và Power Saver
-   - Mở `config/settings.ini` và thay thế các GUID placeholder bằng GUID đúng cho hệ thống của bạn
+   - Chạy lệnh `powercfg /list` để xem các GUID
+   - Cập nhật các GUID trong `config/settings.ini`
 
-3. **Cấu hình tùy chọn (Không bắt buộc):**
-   - Điều chỉnh `idle_threshold_seconds` trong phần `[General]` để thay đổi thời gian phải không hoạt động trước khi chuyển sang chế độ Power Saver
-   - Thêm tên các ứng dụng nặng vào danh sách `heavy_processes` trong phần `[Processes]` (phân tách bằng dấu phẩy)
+3. **Cấu hình tùy chọn:**
+   - `[General]`
+     - `idle_threshold_seconds`: Thời gian không hoạt động trước khi chuyển sang Power Saver
+     - `check_interval_seconds`: Tần suất kiểm tra trạng thái hệ thống
+     - `enable_debug_logging`: Bật/tắt log chi tiết
+   - `[PowerPlans]`
+     - Cập nhật GUID cho các chế độ nguồn
+     - `turbo_guid`: GUID tùy chọn cho chế độ turbo
+   - `[Processes]`
+     - `heavy_processes`: Danh sách các ứng dụng nặng
+   - `[TurboMode]`
+     - Cấu hình các nhóm ứng dụng cho chế độ turbo
 
-### Cài đặt như Dịch vụ Windows (Chạy liên tục, tự động)
+### Cài đặt như Dịch vụ Windows
 
-1. **Mở Command Prompt (cmd) với quyền Administrator**
-
-2. **Cài đặt các gói phụ thuộc:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Cấu hình GUID và các tùy chọn** như hướng dẫn ở phần trên
-
-4. **Cấu hình chế độ tự động khởi động (nếu muốn):**
-
-   - Trong `config/settings.ini`, thay đổi `enable_autostart = 0` thành `enable_autostart = 1`
-
-5. **Cài đặt và khởi động dịch vụ:**
+1. Thực hiện các bước cài đặt thông thường ở trên
+2. Chạy với quyền Administrator:
    ```bash
    python install_service.py
    ```
-   Script này sẽ tự động cài đặt dịch vụ Windows và cấu hình nó theo các thiết lập trong file settings.ini.
 
 ## Sử dụng
 
@@ -101,29 +92,44 @@ python windows_service.py remove
 
 ## Cách hoạt động
 
-Smart Power Manager hoạt động bằng cách:
+Smart Power Manager hoạt động theo thứ tự ưu tiên:
 
-1. **Giám sát hoạt động người dùng** thông qua các sự kiện bàn phím và chuột
-2. **Quét các tiến trình hệ thống** để phát hiện các ứng dụng nặng đã cấu hình
-3. **Áp dụng luật ưu tiên** để chọn chế độ năng lượng:
-   - Nếu phát hiện ứng dụng nặng → **High Performance**
-   - Nếu người dùng không hoạt động → **Power Saver**
-   - Nếu không có điều kiện nào ở trên → **Balanced**
+1. **Chế độ Turbo** (Cao nhất)
+   - Kích hoạt khi phát hiện ứng dụng trong nhóm turbo đang chạy
+   - Sử dụng GUID riêng cho hiệu suất tối đa
+
+2. **Chế độ Hiệu suất cao**
+   - Kích hoạt khi có ứng dụng nặng và người dùng đang hoạt động
+   - Tối ưu cho hiệu suất
+
+3. **Chế độ Tiết kiệm pin**
+   - Kích hoạt khi người dùng không hoạt động trong thời gian quy định
+   - Tiết kiệm năng lượng tối đa
+
+4. **Chế độ Cân bằng** (Mặc định)
+   - Áp dụng khi không có điều kiện nào ở trên
+   - Cân bằng giữa hiệu suất và tiết kiệm pin
+
+## Theo dõi hoạt động
+
+- File log chính được lưu trong thư mục `logs/activity_debug.txt`
+- Log của dịch vụ Windows: `C:\ProgramData\SmartPowerManager\logs\smart_power_service.log`
+- Xem log để theo dõi:
+  - Thay đổi chế độ nguồn
+  - Phát hiện ứng dụng nặng/turbo
+  - Thời gian không hoạt động
+  - Lỗi và cảnh báo
 
 ## Xử lý sự cố
 
-- **Lỗi "Invalid or placeholder GUID":** Đảm bảo rằng bạn đã cài đặt đúng GUID cho ba chế độ năng lượng trong file settings.ini
-- **Chương trình không thay đổi chế độ năng lượng:** Đảm bảo rằng bạn đang chạy với quyền Administrator
-- **Lỗi không tìm thấy powercfg:** Đảm bảo rằng bạn đang chạy trên Windows và powercfg.exe có trong PATH
+- **Không có quyền thay đổi nguồn:** Chạy với quyền Administrator
+- **GUID không hợp lệ:** Kiểm tra lại `powercfg /list` và cập nhật settings.ini
+- **Dịch vụ không khởi động:** Kiểm tra Windows Event Log để xem lỗi chi tiết
+- **Không nhận diện ứng dụng:** Kiểm tra tên process trong Task Manager
 
 ## Ghi chú quan trọng
 
-- Để hoạt động tốt nhất, chương trình nên chạy với quyền Administrator
-- File log dịch vụ nằm ở `C:\ProgramData\SmartPowerManager\logs\smart_power_service.log`
-- Nếu bạn cập nhật file settings.ini, bạn cần khởi động lại dịch vụ để áp dụng thay đổi
-
-## Phát triển thêm
-
-- Bạn có thể mở rộng danh sách `heavy_processes` trong settings.ini với các ứng dụng riêng của bạn
-- File debug_log.txt được tạo ra trong thư mục chạy chương trình và có thể hữu ích khi gỡ lỗi
-- Sửa đổi giá trị `check_interval_seconds` để thay đổi tần suất kiểm tra trạng thái hệ thống
+- Khởi động lại dịch vụ sau khi thay đổi settings.ini
+- Backup settings.ini trước khi chỉnh sửa
+- Kiểm tra log thường xuyên để đảm bảo hoạt động đúng
+- File README này được cập nhật lần cuối: 02/05/2025

@@ -9,12 +9,13 @@ from core.controller import PowerController
 from utils.logger import setup_logger
 
 CONFIG_FILE = os.path.join('config', 'settings.ini')
+LOG_FILE = os.path.join('logs', 'activity_debug.txt')
 
 def load_config(config_path):
     # Clear old log file
     try:
-        if os.path.exists('activity_debug.txt'):
-            os.remove('activity_debug.txt')
+        if os.path.exists(LOG_FILE):
+            os.remove(LOG_FILE)
     except:
         pass
         
@@ -53,7 +54,7 @@ def load_config(config_path):
 
 def main():
     # Write startup banner
-    with open('activity_debug.txt', 'a', encoding='utf-8') as f:
+    with open(LOG_FILE, 'a', encoding='utf-8') as f:
         f.write(f"\n\n--- Starting Smart Power Manager ---\n")
         f.write(f"Time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
 
