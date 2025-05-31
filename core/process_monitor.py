@@ -15,27 +15,20 @@ class ProcessMonitor:
         self.heavy_process_names = {name.lower() for name in heavy_process_names}
         
         # Turbo mode configuration
-        self.turbo_groups = {}
-        self.min_apps_threshold = 2
-        if turbo_config:
-            self.min_apps_threshold = turbo_config.getint('TurboMode', 'min_apps_threshold', fallback=2)
-            # Load all groups that end with _group
-            for key in turbo_config.options('TurboMode'):
-                if key.endswith('_group'):
-                    processes = turbo_config.get('TurboMode', key).split(',')
-                    self.turbo_groups[key] = {p.strip().lower() for p in processes if p.strip()}
+        self.min_apps_threshold = turbo_config.getint('TurboMode', 'min_apps_threshold', fallback=2) if turbo_config else 2
+        self.turbo_apps = {name.strip().lower() for name in turbo_config.get('TurboMode', 'turbo_apps', fallback='').split(',') if name.strip()} if turbo_config else set()
         
         logger.info("=== ProcessMonitor Initialization ===")
         logger.info(f"Heavy processes configured: {self.heavy_process_names}")
         logger.info(f"Turbo mode threshold: {self.min_apps_threshold} apps")
-        for group, processes in self.turbo_groups.items():
-            logger.info(f"Turbo group '{group}': {processes}")
+        logger.info(f"Turbo apps configured: {self.turbo_apps}")
+
         
         # Cache state
         self._cache_lifetime = 2.0  # seconds
         self._window_cache = {}  # (proc_name, pid) -> (timestamp, has_window)
         self._last_active_processes = set()
-        self._last_turbo_state = (False, None, set())
+        self._last_turbo_state = (False, set())
         self._last_heavy_state = False
         self._last_check_time = 0
         self._skipped_processes_count = 0
@@ -160,29 +153,37 @@ class ProcessMonitor:
         """Check conditions for activating Turbo Mode"""
         try:
             active_processes = self.get_active_processes_with_windows()
+            heavy_running_apps = self.heavy_process_names.intersection(active_processes)
             
-            # Check each group
-            for group_name, group_processes in self.turbo_groups.items():
-                running_apps = group_processes.intersection(active_processes)
-                
-                # Only log if threshold met
-                if len(running_apps) >= self.min_apps_threshold:
-                    current_state = (True, group_name, running_apps)
-                    if current_state != self._last_turbo_state:
-                        logger.info(f"Turbo mode activated for group '{group_name}' with apps: {running_apps}")
-                        self._last_turbo_state = current_state
-                    return current_state
+            turbo_running_apps = {app for app in active_processes if app in self.turbo_apps}
+
+            # Condition 1: At least one app from turbo_apps is running
+            condition_turbo_apps = bool(turbo_running_apps)
+
+            # Condition 2: At least min_apps_threshold (default 2) from heavy_process_names are running
+            condition_heavy_apps = len(heavy_running_apps) >= self.min_apps_threshold
+
+            if condition_turbo_apps or condition_heavy_apps:
+                current_state = (True, turbo_running_apps.union(heavy_running_apps))
+                if current_state != self._last_turbo_state:
+                    if condition_turbo_apps and not condition_heavy_apps:
+                        logger.info(f"Turbo mode activated by turbo_apps: {turbo_running_apps}")
+                    elif condition_heavy_apps and not condition_turbo_apps:
+                        logger.info(f"Turbo mode activated by heavy_apps: {heavy_running_apps} (>= {self.min_apps_threshold} apps)")
+                    else:
+                        logger.info(f"Turbo mode activated by both turbo_apps ({turbo_running_apps}) and heavy_apps ({heavy_running_apps})")
+                    self._last_turbo_state = current_state
+                return current_state
             
-            # If no group meets conditions
             if self._last_turbo_state[0]:
                 logger.info("Turbo mode deactivated")
-                self._last_turbo_state = (False, None, set())
+                self._last_turbo_state = (False, set())
                 
-            return (False, None, set())
+            return (False, set())
 
         except Exception as e:
             logger.error(f"Error checking turbo condition: {e}")
-            return (False, None, set())
+            return (False, set())
 
     def is_heavy_process_running(self):
         """Check if any heavy process is running with visible windows"""
@@ -197,6 +198,20 @@ class ProcessMonitor:
                 else:
                     logger.debug("No heavy processes active")
                 self._last_heavy_state = is_heavy
+            return is_heavy
+        except Exception as e:
+            logger.error(f"Error checking heavy process: {e}")
+            return False
+
+    def get_heavy_running_apps(self):
+        """Return a list of currently running heavy processes with visible windows"""
+        try:
+            active_processes = self.get_active_processes_with_windows()
+            heavy_running = self.heavy_process_names.intersection(active_processes)
+            return list(heavy_running)
+        except Exception as e:
+            logger.error(f"Error getting heavy running apps: {e}")
+            return []
             
             return is_heavy
 

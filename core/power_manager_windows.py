@@ -74,7 +74,7 @@ class PowerManagerWindows:
         """Lấy current power plan."""
         output = self._run_powercfg(["/getactivescheme"])
         if not output:
-            return "unknown"
+            return None
             
         try:
             # Parse GUID from output
@@ -92,10 +92,10 @@ class PowerManagerWindows:
             else:
                 plan_name = output.split("(")[1].split(")")[0].strip()
                 logger.warning(f"Unknown power plan: {plan_name} ({guid})")
-                return "unknown"
+                return None
         except Exception as e:
             logger.error(f"Error parsing power plan: {e}")
-            return "unknown"
+            return None
             
     def set_power_plan(self, plan_name):
         """Đặt power plan."""

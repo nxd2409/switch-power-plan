@@ -1,0 +1,305 @@
+2025-05-31 13:45:30,164 - [INFO] - Debug logging is enabled
+2025-05-31 13:45:30,164 - [INFO] - Configuration loaded successfully from config\settings.ini
+2025-05-31 13:45:30,165 - [DEBUG] - Configuration loaded.
+2025-05-31 13:45:30,165 - [DEBUG] - Initializing PowerController...
+2025-05-31 13:45:30,166 - [INFO] - === ProcessMonitor Initialization ===
+2025-05-31 13:45:30,166 - [INFO] - Heavy processes configured: {'msedge.exe', 'cs2.exe', 'code.exe', 'trae.exe', 'leagueoflegends.exe'}
+2025-05-31 13:45:30,166 - [INFO] - Turbo mode threshold: 2 apps
+2025-05-31 13:45:30,167 - [INFO] - Turbo apps configured: {'msedge.exe', 'leagueoflegends.exe', 'cs2.exe'}
+2025-05-31 13:45:30,195 - [DEBUG] - PowerController initialized successfully.
+2025-05-31 13:45:30,195 - [INFO] - Starting Smart Power Manager...
+2025-05-31 13:45:30,266 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:45:30,285 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:45:30,293 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:45:30,294 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:45:30,300 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:45:30,307 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:45:30,309 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:45:30,309 - [INFO] - Turbo mode activated by both turbo_apps ({'msedge.exe'}) and heavy_apps ({'msedge.exe', 'trae.exe'})
+2025-05-31 13:45:40,362 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:45:40,377 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:45:40,383 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:45:40,384 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:45:40,389 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:45:40,394 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:45:40,396 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:45:50,421 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:45:50,434 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:45:50,440 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:45:50,441 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:45:50,446 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:45:50,450 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:45:50,452 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:46:00,478 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:46:00,491 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:46:00,497 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:46:00,497 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:46:00,502 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:46:00,507 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:46:00,509 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:46:10,534 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:46:10,547 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:46:10,553 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:46:10,553 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:46:10,559 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:46:10,563 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:46:10,565 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:46:20,593 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:46:20,609 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:46:20,614 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:46:20,615 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:46:20,630 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:46:20,635 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:46:20,637 - [DEBUG] - Process scan complete: 6 active, 138 background skipped
+2025-05-31 13:46:30,665 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:46:30,679 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:46:30,686 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:46:30,687 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:46:30,692 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:46:30,697 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:46:30,699 - [DEBUG] - Process scan complete: 6 active, 138 background skipped
+2025-05-31 13:46:40,724 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:46:40,736 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:46:40,742 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:46:40,742 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:46:40,747 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:46:40,751 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:46:40,752 - [DEBUG] - Process scan complete: 6 active, 138 background skipped
+2025-05-31 13:46:50,778 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:46:50,791 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:46:50,797 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:46:50,797 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:46:50,802 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:46:50,806 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:46:50,808 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:47:00,836 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:47:00,852 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:47:00,858 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:47:00,859 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:47:00,865 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:47:00,869 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:47:00,871 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:47:10,908 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:47:10,923 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:47:10,931 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:47:10,932 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:47:10,936 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:47:10,944 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:47:10,947 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:47:20,969 - [INFO] - Smart Power Manager finished.
+2025-05-31 13:47:25,262 - [INFO] - Debug logging is enabled
+2025-05-31 13:47:25,263 - [INFO] - Configuration loaded successfully from config\settings.ini
+2025-05-31 13:47:25,263 - [DEBUG] - Configuration loaded.
+2025-05-31 13:47:25,264 - [DEBUG] - Initializing PowerController...
+2025-05-31 13:47:25,264 - [INFO] - === ProcessMonitor Initialization ===
+2025-05-31 13:47:25,266 - [INFO] - Heavy processes configured: {'leagueoflegends.exe', 'cs2.exe', 'msedge.exe', 'trae.exe', 'code.exe'}
+2025-05-31 13:47:25,266 - [INFO] - Turbo mode threshold: 2 apps
+2025-05-31 13:47:25,267 - [INFO] - Turbo apps configured: {'cs2.exe', 'msedge.exe', 'leagueoflegends.exe'}
+2025-05-31 13:47:25,303 - [DEBUG] - PowerController initialized successfully.
+2025-05-31 13:47:25,303 - [INFO] - Starting Smart Power Manager...
+2025-05-31 13:47:25,365 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:47:25,382 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:47:25,389 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:47:25,389 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:47:25,394 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:47:25,400 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:47:25,402 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:47:25,403 - [INFO] - Turbo mode activated by both turbo_apps ({'msedge.exe'}) and heavy_apps ({'trae.exe', 'msedge.exe'})
+2025-05-31 13:47:35,455 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:47:35,483 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:47:35,494 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:47:35,496 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:47:35,501 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:47:35,512 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:47:35,519 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:47:45,558 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:47:45,574 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:47:45,580 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:47:45,581 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:47:45,587 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:47:45,592 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:47:45,594 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:47:55,624 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:47:55,639 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:47:55,646 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:47:55,646 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:47:55,651 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:47:55,657 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:47:55,659 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:48:05,681 - [INFO] - Smart Power Manager finished.
+2025-05-31 13:48:09,011 - [INFO] - Debug logging is enabled
+2025-05-31 13:48:09,012 - [INFO] - Configuration loaded successfully from config\settings.ini
+2025-05-31 13:48:09,012 - [DEBUG] - Configuration loaded.
+2025-05-31 13:48:09,012 - [DEBUG] - Initializing PowerController...
+2025-05-31 13:48:09,012 - [INFO] - === ProcessMonitor Initialization ===
+2025-05-31 13:48:09,013 - [INFO] - Heavy processes configured: {'trae.exe', 'cs2.exe', 'code.exe', 'leagueoflegends.exe', 'msedge.exe'}
+2025-05-31 13:48:09,013 - [INFO] - Turbo mode threshold: 2 apps
+2025-05-31 13:48:09,014 - [INFO] - Turbo apps configured: {'leagueoflegends.exe', 'cs2.exe', 'msedge.exe'}
+2025-05-31 13:48:09,039 - [DEBUG] - PowerController initialized successfully.
+2025-05-31 13:48:09,039 - [INFO] - Starting Smart Power Manager...
+2025-05-31 13:48:09,103 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:48:09,119 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:48:09,127 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:48:09,127 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:48:09,132 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:48:09,138 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:48:09,140 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:48:09,141 - [INFO] - Turbo mode activated by both turbo_apps ({'msedge.exe'}) and heavy_apps ({'trae.exe', 'msedge.exe'})
+2025-05-31 13:48:19,186 - [INFO] - Smart Power Manager finished.
+2025-05-31 13:49:07,370 - [INFO] - Debug logging is enabled
+2025-05-31 13:49:07,371 - [INFO] - Configuration loaded successfully from config\settings.ini
+2025-05-31 13:49:07,371 - [DEBUG] - Configuration loaded.
+2025-05-31 13:49:07,371 - [DEBUG] - Initializing PowerController...
+2025-05-31 13:49:07,371 - [INFO] - === ProcessMonitor Initialization ===
+2025-05-31 13:49:07,372 - [INFO] - Heavy processes configured: {'leagueoflegends.exe', 'cs2.exe', 'msedge.exe', 'trae.exe', 'code.exe'}
+2025-05-31 13:49:07,373 - [INFO] - Turbo mode threshold: 2 apps
+2025-05-31 13:49:07,374 - [INFO] - Turbo apps configured: {'leagueoflegends.exe', 'cs2.exe', 'msedge.exe'}
+2025-05-31 13:49:07,400 - [DEBUG] - PowerController initialized successfully.
+2025-05-31 13:49:07,400 - [INFO] - Starting Smart Power Manager...
+2025-05-31 13:49:07,501 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:49:07,518 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:49:07,525 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:49:07,525 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:49:07,530 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:49:07,537 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:49:07,540 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:49:07,540 - [INFO] - Turbo mode activated by both turbo_apps ({'msedge.exe'}) and heavy_apps ({'trae.exe', 'msedge.exe'})
+2025-05-31 13:49:17,595 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:49:17,613 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:49:17,623 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:49:17,624 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:49:17,628 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:49:17,636 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:49:17,638 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:49:27,666 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:49:27,677 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:49:27,683 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:49:27,683 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:49:27,687 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:49:27,692 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:49:27,694 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:49:37,723 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:49:37,735 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:49:37,741 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:49:37,741 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:49:37,746 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:49:37,750 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:49:37,752 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:49:47,780 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:49:47,795 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:49:47,800 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:49:47,801 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:49:47,806 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:49:47,812 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:49:47,813 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:49:57,858 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:49:57,874 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:49:57,881 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:49:57,882 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:49:57,886 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:49:57,891 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:49:57,893 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:50:07,923 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:50:07,938 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:50:07,944 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:50:07,945 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:50:07,950 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:50:07,954 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:50:07,956 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:50:17,985 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:50:18,000 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:50:18,005 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:50:18,007 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:50:18,012 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:50:18,016 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:50:18,018 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:50:28,046 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:50:28,061 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:50:28,065 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:50:28,066 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:50:28,070 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:50:28,076 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:50:28,078 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:50:38,106 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:50:38,121 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:50:38,127 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:50:38,127 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:50:38,133 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:50:38,137 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:50:38,140 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:50:48,169 - [INFO] - Smart Power Manager finished.
+2025-05-31 13:50:50,270 - [INFO] - Debug logging is enabled
+2025-05-31 13:50:50,270 - [INFO] - Configuration loaded successfully from config\settings.ini
+2025-05-31 13:50:50,271 - [DEBUG] - Configuration loaded.
+2025-05-31 13:50:50,271 - [DEBUG] - Initializing PowerController...
+2025-05-31 13:50:50,271 - [INFO] - === ProcessMonitor Initialization ===
+2025-05-31 13:50:50,271 - [INFO] - Heavy processes configured: {'code.exe', 'trae.exe', 'cs2.exe', 'leagueoflegends.exe', 'msedge.exe'}
+2025-05-31 13:50:50,272 - [INFO] - Turbo mode threshold: 2 apps
+2025-05-31 13:50:50,272 - [INFO] - Turbo apps configured: {'leagueoflegends.exe', 'cs2.exe', 'msedge.exe'}
+2025-05-31 13:50:50,297 - [DEBUG] - PowerController initialized successfully.
+2025-05-31 13:50:50,297 - [INFO] - Starting Smart Power Manager...
+2025-05-31 13:50:50,361 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:50:50,377 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:50:50,385 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:50:50,386 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:50:50,391 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:50:50,397 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:50:50,399 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:50:50,399 - [INFO] - Turbo mode activated by both turbo_apps ({'msedge.exe'}) and heavy_apps ({'trae.exe', 'msedge.exe'})
+2025-05-31 13:51:00,447 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:51:00,460 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:51:00,466 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:51:00,466 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:51:00,470 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:51:00,476 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:51:00,478 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:51:10,503 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:51:10,516 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:51:10,523 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:51:10,523 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:51:10,527 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:51:10,533 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:51:10,535 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:51:20,560 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:51:20,572 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:51:20,577 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:51:20,577 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:51:20,582 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:51:20,587 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:51:20,589 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:51:30,615 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:51:30,628 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:51:30,634 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:51:30,634 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:51:30,639 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:51:30,643 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:51:30,645 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:51:40,670 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:51:40,682 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:51:40,688 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:51:40,688 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:51:40,693 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:51:40,697 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:51:40,698 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:51:50,725 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:51:50,738 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:51:50,744 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:51:50,744 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:51:50,749 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:51:50,753 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:51:50,754 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:52:00,780 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:52:00,793 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:52:00,799 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:52:00,800 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:52:00,803 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:52:00,809 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:52:00,810 - [DEBUG] - Process scan complete: 6 active, 137 background skipped
+2025-05-31 13:52:10,836 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-05-31 13:52:10,848 - [DEBUG] - Found 1 valid windows for applicationframehost.exe
+2025-05-31 13:52:10,854 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-05-31 13:52:10,855 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-05-31 13:52:10,859 - [DEBUG] - Found 1 valid windows for trae.exe
+2025-05-31 13:52:10,863 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-05-31 13:52:10,865 - [DEBUG] - Process scan complete: 6 active, 138 background skipped
+2025-05-31 13:52:20,887 - [INFO] - Smart Power Manager finished.

@@ -10,8 +10,3 @@ activity_debug.txt
 
 # VS Code settings
 .vscode/
-
-# Environment
-venv/
-env/
-.env

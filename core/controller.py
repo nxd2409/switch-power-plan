@@ -47,6 +47,8 @@ class PowerController:
         self.running = False
         self.last_status = None
         self.last_power_plan = None
+        self._previous_manual_power_plan = None
+        logger.debug(f"[DEBUG] Initial _previous_manual_power_plan: {self._previous_manual_power_plan}")
         
         # Activity log file
         self.activity_log_file = os.path.join("logs", "activity_debug.txt")
@@ -78,6 +80,16 @@ class PowerController:
             logger.error(f"Cannot run without PowerManager: {self.power_manager_error}")
             return False
 
+        # Capture the initial power plan when the application starts
+        if self._previous_manual_power_plan is None:
+            initial_plan = self.power_manager.get_current_plan_name()
+            if initial_plan:
+                self._previous_manual_power_plan = initial_plan
+                logger.info(f"Initial power plan detected: {self._previous_manual_power_plan}")
+            else:
+                logger.warning("Could not detect initial power plan.")
+            logger.debug(f"[DEBUG] _previous_manual_power_plan after initial capture: {self._previous_manual_power_plan}")
+
         # Start monitoring for activity
         if not self.activity_monitor.start_monitoring():
             logger.error("Failed to start activity monitoring")
@@ -104,7 +116,7 @@ class PowerController:
                     # Check conditions in order of priority
                     # 1. First check Turbo condition (highest priority)
                     turbo_result = self.process_monitor.check_turbo_condition()
-                    is_turbo, active_group, running_apps = turbo_result
+                    is_turbo, running_apps = turbo_result
                     
                     # 2. Then check for heavy processes if not in turbo mode
                     is_heavy_running = False if is_turbo else self.process_monitor.is_heavy_process_running()
@@ -112,8 +124,7 @@ class PowerController:
                     # Determine power plan based on conditions with priority
                     if is_turbo:
                         desired_plan = 'turbo'
-                        group_name = active_group.replace('_group', '').title()
-                        status_msg = f"Turbo Mode ({group_name}) → {', '.join(running_apps)}"
+                        status_msg = f"Turbo Mode → {', '.join(running_apps)}"
                     elif is_heavy_running and not is_idle:
                         # Only go to high performance if not idle
                         desired_plan = 'high_performance'
@@ -144,10 +155,8 @@ class PowerController:
                     
                     # Write status to activity log regardless of changes
                     current_time = datetime.datetime.now().strftime('%H:%M:%S')
-                    if is_turbo:
-                        log_msg = f"{current_time} - Turbo: {is_turbo} ({active_group}), Heavy: {is_heavy_running}, Idle: {is_idle} ({elapsed_time}s), Action: {desired_plan}"
-                    else:
-                        log_msg = f"{current_time} - Heavy Process: {is_heavy_running}, Idle: {is_idle} ({elapsed_time}s), Action: {desired_plan}"
+                    # Prepare running apps info for logging
+                    log_msg = f"{current_time} - Turbo: {is_turbo}, Heavy: {is_heavy_running}, Idle: {is_idle} ({elapsed_time}s), Action: {desired_plan}"
                     self.write_to_activity_log(log_msg)
                     
                     # Sleep until next check
@@ -165,9 +174,15 @@ class PowerController:
             # Cleanup when stopping
             logger.info("Stopping Smart Power Manager...")
             self.activity_monitor.stop_monitoring()
-            # Set to balanced mode when exiting if we still have admin rights
+            # Restore previous manual power plan if it was set, otherwise set to balanced
             if self.power_manager and self.power_manager._is_admin():
-                self.power_manager.set_power_plan('balanced')
+                logger.debug(f"[DEBUG] Attempting to restore power plan. _previous_manual_power_plan: {self._previous_manual_power_plan}")
+                if self._previous_manual_power_plan:
+                    logger.info(f"Restoring previous power plan: {self._previous_manual_power_plan}")
+                    self.power_manager.set_power_plan(self._previous_manual_power_plan)
+                else:
+                    logger.info("No previous manual power plan to restore, setting to balanced.")
+                    self.power_manager.set_power_plan('balanced')
             # Write stop message to log if not already written by signal handler
             if self.running:
                 self.write_to_activity_log(f"\n--- Smart Power Manager stopped at {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ---\n")

@@ -9,16 +9,8 @@ from core.controller import PowerController
 from utils.logger import setup_logger
 
 CONFIG_FILE = os.path.join('config', 'settings.ini')
-LOG_FILE = os.path.join('logs', 'activity_debug.txt')
 
 def load_config(config_path):
-    # Clear old log file
-    try:
-        if os.path.exists(LOG_FILE):
-            os.remove(LOG_FILE)
-    except:
-        pass
-        
     if not os.path.exists(config_path):
         logging.error(f"Configuration file not found: {config_path}")
         sys.exit(f"Error: Configuration file not found at {config_path}")
@@ -53,12 +45,7 @@ def load_config(config_path):
         sys.exit(f"Error: Could not read configuration file: {e}")
 
 def main():
-    # Write startup banner
-    with open(LOG_FILE, 'a', encoding='utf-8') as f:
-        f.write(f"\n\n--- Starting Smart Power Manager ---\n")
-        f.write(f"Time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-
-    # Load configuration
+    # Removed the LOG_FILE definition and its usage for startup banner
     logger = logging.getLogger('smart_power_manager')
     logger.debug("Loading configuration...")
     config = load_config(CONFIG_FILE)

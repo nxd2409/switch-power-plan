@@ -1,37 +1,23 @@
 # Smart Power Manager
-
-Smart Power Manager là một ứng dụng tự động điều chỉnh chế độ năng lượng của Windows dựa trên hoạt động của người dùng và các tiến trình đang chạy, giúp tối ưu hóa hiệu suất và tiết kiệm pin cho máy tính.
-
-## Tính năng
-
-- **Chuyển sang chế độ Hiệu suất cao (High Performance)** khi phát hiện các ứng dụng nặng đang chạy
-- **Chế độ Turbo** cho các ứng dụng đặc biệt được cấu hình trong nhóm turbo
-- **Chuyển sang chế độ Tiết kiệm pin (Power Saver)** khi người dùng không hoạt động
-- **Quay lại chế độ Cân bằng (Balanced)** trong các trường hợp thông thường
-- **Theo dõi hoạt động thực tế** của bàn phím và chuột để phát hiện chính xác thời gian không hoạt động
-- **Hỗ trợ chạy như dịch vụ Windows** để tự động khởi động cùng hệ thống
-- **Ghi log chi tiết** vào thư mục logs để theo dõi hoạt động của ứng dụng
-- **Tùy chỉnh linh hoạt** thông qua file cấu hình settings.ini
+Smart Power Manager là một ứng dụng tự động điều chỉnh power plan của Windows dựa trên hoạt động của người dùng và các tiến trình đang chạy, giúp tối ưu hóa hiệu suất và tiết kiệm pin cho máy tính.
 
 ## Yêu cầu hệ thống
-
 - Windows 10 hoặc mới hơn
 - Python 3.6 hoặc mới hơn
-- Quyền Administrator (để thay đổi chế độ năng lượng)
+- Quyền Administrator (để có thể thay đổi được power plan)
 
 ## Cài đặt
 
 ### Cài đặt thông thường
 
 1. **Cài đặt các gói phụ thuộc:**
-   ```bash
    pip install -r requirements.txt
-   ```
 
-2. **Cấu hình GUID của các chế độ năng lượng:**
+2. **Cấu hình GUID của các power plan:**
    - Mở Command Prompt (cmd) với quyền Administrator
    - Chạy lệnh `powercfg /list` để xem các GUID
    - Cập nhật các GUID trong `config/settings.ini`
+   (Mỗi thiết bị sẽ có những power plan có tên khác nhau, tùy chọn phù hợp để thay thế vào trong settings.ini)
 
 3. **Cấu hình tùy chọn:**
    - `[General]`
@@ -42,63 +28,27 @@ Smart Power Manager là một ứng dụng tự động điều chỉnh chế đ
      - Cập nhật GUID cho các chế độ nguồn
      - `turbo_guid`: GUID tùy chọn cho chế độ turbo
    - `[Processes]`
-     - `heavy_processes`: Danh sách các ứng dụng nặng
+     - `heavy_processes`: Danh sách các ứng dụng có thể kích hoạt chế độ performance (nhiều hơn 2 ứng dụng trong danh sách performance kích hoạt thì chế độ turbo sẽ được kích hoạt, nếu không thì chế độ performance sẽ được kích hoạt)
    - `[TurboMode]`
-     - Cấu hình các nhóm ứng dụng cho chế độ turbo
-
-### Cài đặt như Dịch vụ Windows
-
-1. Thực hiện các bước cài đặt thông thường ở trên
-2. Chạy với quyền Administrator:
-   ```bash
-   python install_service.py
-   ```
+     - `turbo_apps`: Danh sách các ứng dụng có thể kích hoạt chế độ turbo (chỉ cần 1 ứng dụng trong danh sách hoạt động này thì chế độ turbo sẽ được kích hoạt)
 
 ## Sử dụng
 
 ### Chạy thông thường
-
-```bash
-python main.py
-```
+- Chạy CMD với quyền Administrator
+- Chuyển đến thư mục chính của ứng dụng
+- Kích hoạt môi trường python ảo: .venv\Scripts\activate
+- Khởi động ứng dụng: python main.py
 
 Chương trình sẽ chạy ở foreground, ghi log các hành động của nó vào console. Nhấn `Ctrl+C` để dừng.
 
-### Quản lý Dịch vụ Windows
-
-**Kiểm tra trạng thái dịch vụ:**
-
-```bash
-sc query SmartPowerManager
-```
-
-**Khởi động dịch vụ:**
-
-```bash
-sc start SmartPowerManager
-```
-
-**Dừng dịch vụ:**
-
-```bash
-sc stop SmartPowerManager
-```
-
-**Gỡ cài đặt dịch vụ:**
-
-```bash
-python windows_service.py remove
-```
-
 ## Cách hoạt động
-
 Smart Power Manager hoạt động theo thứ tự ưu tiên:
 
 1. **Chế độ Turbo** (Cao nhất)
-   - Kích hoạt khi phát hiện ứng dụng trong nhóm turbo đang chạy
-   - Sử dụng GUID riêng cho hiệu suất tối đa
+   - Kích hoạt khi phát hiện ứng dụng trong nhóm turbo hoặc nhiều ứng dụng trong nhóm performance đang chạy
 
-2. **Chế độ Hiệu suất cao**
+2. **Chế độ Performance**
    - Kích hoạt khi có ứng dụng nặng và người dùng đang hoạt động
    - Tối ưu cho hiệu suất
 
@@ -111,25 +61,22 @@ Smart Power Manager hoạt động theo thứ tự ưu tiên:
    - Cân bằng giữa hiệu suất và tiết kiệm pin
 
 ## Theo dõi hoạt động
-
 - File log chính được lưu trong thư mục `logs/activity_debug.txt`
-- Log của dịch vụ Windows: `C:\ProgramData\SmartPowerManager\logs\smart_power_service.log`
+- File log chi tiết `debug_logs.txt`
 - Xem log để theo dõi:
   - Thay đổi chế độ nguồn
-  - Phát hiện ứng dụng nặng/turbo
+  - Phát hiện ứng dụng đang làm thay đổi power plan
   - Thời gian không hoạt động
   - Lỗi và cảnh báo
 
 ## Xử lý sự cố
-
-- **Không có quyền thay đổi nguồn:** Chạy với quyền Administrator
+- **Không có quyền thay đổi power plan:** Chạy với quyền Administrator
 - **GUID không hợp lệ:** Kiểm tra lại `powercfg /list` và cập nhật settings.ini
-- **Dịch vụ không khởi động:** Kiểm tra Windows Event Log để xem lỗi chi tiết
+- **Dịch vụ không khởi động:** Kiểm tra Log hoặc Terminal để xem lỗi chi tiết
 - **Không nhận diện ứng dụng:** Kiểm tra tên process trong Task Manager
 
 ## Ghi chú quan trọng
-
 - Khởi động lại dịch vụ sau khi thay đổi settings.ini
 - Backup settings.ini trước khi chỉnh sửa
 - Kiểm tra log thường xuyên để đảm bảo hoạt động đúng
-- File README này được cập nhật lần cuối: 02/05/2025
+- File README này được cập nhật lần cuối: 31/05/2025
