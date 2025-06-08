@@ -303,3 +303,1176 @@
 2025-05-31 13:52:10,863 - [DEBUG] - Found 1 valid windows for msedge.exe
 2025-05-31 13:52:10,865 - [DEBUG] - Process scan complete: 6 active, 138 background skipped
 2025-05-31 13:52:20,887 - [INFO] - Smart Power Manager finished.
+2025-06-08 16:48:30,466 - [INFO] - Debug logging is enabled
+2025-06-08 16:48:30,466 - [INFO] - Configuration loaded successfully from config\settings.ini
+2025-06-08 16:48:30,466 - [DEBUG] - Configuration loaded.
+2025-06-08 16:48:30,466 - [DEBUG] - Initializing PowerController...
+2025-06-08 16:48:30,466 - [INFO] - === ProcessMonitor Initialization ===
+2025-06-08 16:48:30,466 - [INFO] - Heavy processes configured: {'leagueoflegends.exe', 'trae.exe', 'code.exe', 'msedge.exe', 'cs2.exe'}
+2025-06-08 16:48:30,467 - [INFO] - Turbo mode threshold: 2 apps
+2025-06-08 16:48:30,467 - [INFO] - Turbo apps configured: {'leagueoflegends.exe', 'msedge.exe', 'cs2.exe'}
+2025-06-08 16:48:30,491 - [DEBUG] - PowerController initialized successfully.
+2025-06-08 16:48:30,492 - [INFO] - Starting Smart Power Manager...
+2025-06-08 16:48:30,546 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:48:30,560 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:48:30,561 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:48:30,562 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:48:30,582 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:48:30,583 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:48:30,584 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:48:30,584 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:48:30,597 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:48:30,604 - [DEBUG] - Process scan complete: 9 active, 141 background skipped
+2025-06-08 16:48:30,604 - [INFO] - Turbo mode activated by both turbo_apps ({'msedge.exe'}) and heavy_apps ({'msedge.exe', 'code.exe'})
+2025-06-08 16:48:40,650 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:48:40,661 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:48:40,661 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:48:40,663 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:48:40,680 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:48:40,681 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:48:40,683 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:48:40,684 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:48:40,695 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:48:40,701 - [DEBUG] - Process scan complete: 9 active, 141 background skipped
+2025-06-08 16:48:50,726 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:48:50,737 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:48:50,738 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:48:50,738 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:48:50,754 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:48:50,755 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:48:50,755 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:48:50,756 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:48:50,767 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:48:50,772 - [DEBUG] - Process scan complete: 9 active, 141 background skipped
+2025-06-08 16:49:00,798 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:49:00,809 - [DEBUG] - Found 2 valid windows for explorer.exe
+2025-06-08 16:49:00,810 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:49:00,810 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:49:00,829 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:49:00,830 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:49:00,830 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:49:00,831 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:49:00,842 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:49:00,848 - [DEBUG] - Process scan complete: 9 active, 143 background skipped
+2025-06-08 16:49:10,879 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:49:10,890 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:49:10,891 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:49:10,892 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:49:10,909 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:49:10,910 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:49:10,911 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:49:10,911 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:49:10,922 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:49:10,928 - [DEBUG] - Process scan complete: 9 active, 144 background skipped
+2025-06-08 16:49:20,953 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:49:20,965 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:49:20,965 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:49:20,966 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:49:20,982 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:49:20,983 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:49:20,984 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:49:20,984 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:49:20,995 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:49:21,001 - [DEBUG] - Process scan complete: 9 active, 144 background skipped
+2025-06-08 16:49:31,026 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:49:31,038 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:49:31,039 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:49:31,040 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:49:31,056 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:49:31,058 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:49:31,058 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:49:31,059 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:49:31,069 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:49:31,076 - [DEBUG] - Process scan complete: 9 active, 144 background skipped
+2025-06-08 16:49:41,102 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:49:41,116 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:49:41,117 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:49:41,118 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:49:41,137 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:49:41,139 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:49:41,139 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:49:41,140 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:49:41,152 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:49:41,159 - [DEBUG] - Process scan complete: 9 active, 144 background skipped
+2025-06-08 16:49:51,186 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:49:51,199 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:49:51,199 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:49:51,200 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:49:51,218 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:49:51,219 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:49:51,220 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:49:51,220 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:49:51,231 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:49:51,238 - [DEBUG] - Process scan complete: 9 active, 143 background skipped
+2025-06-08 16:50:01,266 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:50:01,278 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:50:01,279 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:50:01,280 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:50:01,298 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:50:01,299 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:50:01,299 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:50:01,300 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:50:01,311 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:50:01,318 - [DEBUG] - Process scan complete: 9 active, 143 background skipped
+2025-06-08 16:50:11,359 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:50:11,377 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:50:11,378 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:50:11,379 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:50:11,398 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:50:11,400 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:50:11,402 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:50:11,403 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:50:11,417 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:50:11,424 - [DEBUG] - Process scan complete: 9 active, 144 background skipped
+2025-06-08 16:50:21,453 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:50:21,508 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:50:21,508 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:50:21,509 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:50:21,534 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:50:21,537 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:50:21,537 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:50:21,540 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:50:21,564 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:50:21,572 - [DEBUG] - Process scan complete: 9 active, 144 background skipped
+2025-06-08 16:50:31,616 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:50:31,628 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:50:31,629 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:50:31,629 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:50:31,648 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:50:31,649 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:50:31,650 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:50:31,651 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:50:31,660 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:50:31,667 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:50:41,694 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:50:41,708 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:50:41,708 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:50:41,709 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:50:41,726 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:50:41,727 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:50:41,728 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:50:41,728 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:50:41,741 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:50:41,765 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:50:51,791 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:50:51,804 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:50:51,805 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:50:51,806 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:50:51,824 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:50:51,825 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:50:51,826 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:50:51,826 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:50:51,839 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:50:51,845 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:51:01,875 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:51:01,891 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:51:01,891 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:51:01,891 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:51:01,915 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:51:01,925 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:51:01,927 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:51:01,929 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:51:01,954 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:51:01,960 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:51:12,013 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:51:12,024 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:51:12,026 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:51:12,027 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:51:12,044 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:51:12,045 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:51:12,045 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:51:12,047 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:51:12,057 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:51:12,063 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:51:22,092 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:51:22,104 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:51:22,105 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:51:22,106 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:51:22,123 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:51:22,125 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:51:22,125 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:51:22,126 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:51:22,137 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:51:22,162 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:51:32,202 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:51:32,214 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:51:32,214 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:51:32,215 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:51:32,233 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:51:32,234 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:51:32,234 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:51:32,235 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:51:32,245 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:51:32,252 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:51:42,278 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:51:42,289 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:51:42,289 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:51:42,290 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:51:42,309 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:51:42,311 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:51:42,311 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:51:42,312 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:51:42,324 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:51:42,347 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:51:52,374 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:51:52,385 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:51:52,386 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:51:52,387 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:51:52,436 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:51:52,437 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:51:52,437 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:51:52,438 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:51:52,449 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:51:52,454 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:52:02,480 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:52:02,492 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:52:02,493 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:52:02,493 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:52:02,524 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:52:02,529 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:52:02,530 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:52:02,532 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:52:02,552 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:52:02,557 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:52:12,603 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:52:12,621 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:52:12,621 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:52:12,622 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:52:12,639 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:52:12,641 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:52:12,641 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:52:12,642 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:52:12,652 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:52:12,658 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:52:22,712 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:52:22,724 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:52:22,724 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:52:22,725 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:52:22,742 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:52:22,744 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:52:22,744 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:52:22,745 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:52:22,756 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:52:22,761 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:52:32,786 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:52:32,798 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:52:32,799 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:52:32,800 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:52:32,817 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:52:32,818 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:52:32,819 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:52:32,820 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:52:32,832 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:52:32,838 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:52:42,864 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:52:42,875 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:52:42,876 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:52:42,877 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:52:42,894 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:52:42,895 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:52:42,896 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:52:42,896 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:52:42,908 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:52:42,914 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:52:52,938 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:52:52,950 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:52:52,950 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:52:52,951 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:52:52,982 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:52:52,988 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:52:52,990 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:52:52,993 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:52:53,012 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:52:53,017 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:53:03,042 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:53:03,053 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:53:03,054 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:53:03,054 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:53:03,071 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:53:03,072 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:53:03,073 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:53:03,073 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:53:03,084 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:53:03,089 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:53:13,113 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:53:13,125 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:53:13,126 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:53:13,126 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:53:13,143 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:53:13,145 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:53:13,145 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:53:13,146 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:53:13,157 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:53:13,163 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:53:23,191 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:53:23,205 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:53:23,206 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:53:23,206 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:53:23,225 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:53:23,227 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:53:23,228 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:53:23,228 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:53:23,240 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:53:23,246 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:53:33,276 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:53:33,288 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:53:33,289 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:53:33,289 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:53:33,307 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:53:33,309 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:53:33,309 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:53:33,310 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:53:33,321 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:53:33,326 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:53:43,393 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:53:43,406 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:53:43,406 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:53:43,407 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:53:43,424 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:53:43,426 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:53:43,426 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:53:43,427 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:53:43,437 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:53:43,443 - [DEBUG] - Process scan complete: 9 active, 143 background skipped
+2025-06-08 16:53:53,516 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:53:53,528 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:53:53,529 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:53:53,529 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:53:53,548 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:53:53,549 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:53:53,550 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:53:53,551 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:53:53,562 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:53:53,568 - [DEBUG] - Process scan complete: 9 active, 143 background skipped
+2025-06-08 16:54:03,604 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:54:03,617 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:54:03,618 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:54:03,619 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:54:03,637 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:54:03,639 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:54:03,639 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:54:03,641 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:54:03,652 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:54:03,659 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:54:13,688 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:54:13,701 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:54:13,701 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:54:13,702 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:54:13,720 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:54:13,721 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:54:13,722 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:54:13,723 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:54:13,736 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:54:13,741 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:54:23,769 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:54:23,781 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:54:23,781 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:54:23,782 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:54:23,799 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:54:23,801 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:54:23,801 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:54:23,802 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:54:23,813 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:54:23,818 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:54:33,841 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:54:33,852 - [DEBUG] - Found 2 valid windows for explorer.exe
+2025-06-08 16:54:33,853 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:54:33,853 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:54:33,869 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:54:33,870 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:54:33,870 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:54:33,871 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:54:33,880 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:54:33,885 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:54:43,908 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:54:43,919 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:54:43,919 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:54:43,920 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:54:43,936 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:54:43,937 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:54:43,937 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:54:43,938 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:54:43,948 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:54:43,953 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:54:53,975 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:54:53,986 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:54:53,987 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:54:53,987 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:54:54,002 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:54:54,004 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:54:54,004 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:54:54,004 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:54:54,015 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:54:54,020 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:55:04,043 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:55:04,055 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:55:04,055 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:55:04,056 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:55:04,071 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:55:04,072 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:55:04,072 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:55:04,073 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:55:04,083 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:55:04,088 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:55:14,114 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:55:14,124 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:55:14,125 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:55:14,125 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:55:14,142 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:55:14,143 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:55:14,144 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:55:14,144 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:55:14,155 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:55:14,160 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:55:24,183 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:55:24,194 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:55:24,195 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:55:24,197 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:55:24,213 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:55:24,215 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:55:24,216 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:55:24,216 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:55:24,230 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:55:24,235 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:55:34,258 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:55:34,268 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:55:34,268 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:55:34,269 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:55:34,284 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:55:34,285 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:55:34,285 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:55:34,286 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:55:34,296 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:55:34,300 - [DEBUG] - Process scan complete: 9 active, 142 background skipped
+2025-06-08 16:55:44,325 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:55:44,337 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:55:44,338 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:55:44,338 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:55:44,355 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:55:44,356 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:55:44,356 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:55:44,357 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:55:44,366 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:55:44,371 - [DEBUG] - Process scan complete: 9 active, 141 background skipped
+2025-06-08 16:55:54,395 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:55:54,408 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:55:54,408 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:55:54,409 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:55:54,425 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:55:54,426 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:55:54,427 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:55:54,427 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:55:54,438 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:55:54,443 - [DEBUG] - Process scan complete: 9 active, 141 background skipped
+2025-06-08 16:56:04,466 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:56:04,476 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:56:04,476 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:56:04,477 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:56:04,493 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:56:04,494 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:56:04,494 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:56:04,494 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:56:04,505 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:56:04,510 - [DEBUG] - Process scan complete: 9 active, 141 background skipped
+2025-06-08 16:56:14,538 - [DEBUG] - Found 1 valid windows for ms-teams.exe
+2025-06-08 16:56:14,550 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 16:56:14,551 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 16:56:14,551 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 16:56:14,576 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 16:56:14,577 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 16:56:14,578 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 16:56:14,578 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 16:56:14,590 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 16:56:14,596 - [DEBUG] - Process scan complete: 9 active, 141 background skipped
+2025-06-08 16:56:24,621 - [INFO] - Smart Power Manager finished.
+2025-06-08 17:23:16,781 - [INFO] - Debug logging is enabled
+2025-06-08 17:23:16,781 - [INFO] - Configuration loaded successfully from config\settings.ini
+2025-06-08 17:23:16,781 - [DEBUG] - Configuration loaded.
+2025-06-08 17:23:16,781 - [DEBUG] - Initializing PowerController...
+2025-06-08 17:23:16,781 - [INFO] - === ProcessMonitor Initialization ===
+2025-06-08 17:23:16,781 - [INFO] - Heavy processes configured: {'leagueoflegends.exe', 'msedge.exe', 'cs2.exe', 'code.exe', 'trae.exe'}
+2025-06-08 17:23:16,781 - [INFO] - Turbo mode threshold: 2 apps
+2025-06-08 17:23:16,782 - [INFO] - Turbo apps configured: {'leagueoflegends.exe', 'msedge.exe', 'cs2.exe'}
+2025-06-08 17:23:16,806 - [DEBUG] - PowerController initialized successfully.
+2025-06-08 17:23:16,807 - [INFO] - Starting Smart Power Manager...
+2025-06-08 17:23:16,873 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:23:16,873 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:23:16,874 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:23:16,892 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 17:23:16,893 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:23:16,893 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:23:16,894 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:23:16,905 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:23:16,911 - [DEBUG] - Process scan complete: 8 active, 141 background skipped
+2025-06-08 17:23:16,911 - [INFO] - Turbo mode activated by both turbo_apps ({'msedge.exe'}) and heavy_apps ({'code.exe', 'msedge.exe'})
+2025-06-08 17:23:26,964 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:23:26,964 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:23:26,965 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:23:26,979 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 17:23:26,980 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:23:26,981 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:23:26,981 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:23:26,990 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:23:26,994 - [DEBUG] - Process scan complete: 8 active, 141 background skipped
+2025-06-08 17:23:37,027 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:23:37,027 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:23:37,029 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:23:37,044 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 17:23:37,045 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:23:37,046 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:23:37,046 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:23:37,055 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:23:37,061 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:23:37,061 - [DEBUG] - Process scan complete: 8 active, 142 background skipped
+2025-06-08 17:23:47,094 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:23:47,095 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:23:47,096 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:23:47,115 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:23:47,116 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:23:47,117 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:23:47,127 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:23:47,131 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:23:47,131 - [DEBUG] - Process scan complete: 7 active, 143 background skipped
+2025-06-08 17:23:47,131 - [INFO] - Turbo mode deactivated
+2025-06-08 17:23:47,131 - [INFO] - Heavy processes detected: code.exe
+2025-06-08 17:23:57,770 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:23:57,770 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:23:57,771 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:23:57,788 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:23:57,789 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:23:57,789 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:23:57,800 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:23:57,805 - [DEBUG] - Found 2 valid windows for snippingtool.exe
+2025-06-08 17:23:57,807 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:23:57,807 - [DEBUG] - Process scan complete: 8 active, 143 background skipped
+2025-06-08 17:24:07,837 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:07,838 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:24:07,839 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:24:07,853 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:24:07,854 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:24:07,854 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:24:07,863 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:24:07,868 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:07,868 - [DEBUG] - Process scan complete: 7 active, 143 background skipped
+2025-06-08 17:24:17,899 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:17,899 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:24:17,900 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:24:17,915 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:24:17,915 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:24:17,916 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:24:17,924 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:24:17,929 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:17,929 - [DEBUG] - Process scan complete: 7 active, 142 background skipped
+2025-06-08 17:24:27,960 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:27,960 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:24:27,961 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:24:27,976 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:24:27,977 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:24:27,977 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:24:27,986 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:24:27,990 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:27,990 - [DEBUG] - Process scan complete: 7 active, 142 background skipped
+2025-06-08 17:24:38,023 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:38,023 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:24:38,024 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:24:38,039 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:24:38,039 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:24:38,040 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:24:38,048 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:24:38,052 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:38,053 - [DEBUG] - Process scan complete: 7 active, 142 background skipped
+2025-06-08 17:24:48,083 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:48,083 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:24:48,084 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:24:48,098 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:24:48,098 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:24:48,099 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:24:48,107 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:24:48,112 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:48,112 - [DEBUG] - Process scan complete: 7 active, 143 background skipped
+2025-06-08 17:24:58,143 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:58,144 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:24:58,144 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:24:58,160 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:24:58,160 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:24:58,161 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:24:58,169 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:24:58,174 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:24:58,174 - [DEBUG] - Process scan complete: 7 active, 143 background skipped
+2025-06-08 17:25:08,205 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:08,205 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:25:08,206 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:25:08,220 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:25:08,221 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:25:08,221 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:25:08,230 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:25:08,234 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:08,234 - [DEBUG] - Process scan complete: 7 active, 143 background skipped
+2025-06-08 17:25:18,266 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:18,267 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:25:18,267 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:25:18,282 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:25:18,282 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:25:18,283 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:25:18,291 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:25:18,295 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:18,295 - [DEBUG] - Process scan complete: 7 active, 143 background skipped
+2025-06-08 17:25:28,325 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:28,326 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:25:28,326 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:25:28,341 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:25:28,341 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:25:28,342 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:25:28,350 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:25:28,354 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:28,354 - [DEBUG] - Process scan complete: 7 active, 143 background skipped
+2025-06-08 17:25:38,386 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:38,387 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:25:38,387 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:25:38,402 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:25:38,403 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:25:38,404 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:25:38,414 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:25:38,419 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:38,419 - [DEBUG] - Process scan complete: 7 active, 142 background skipped
+2025-06-08 17:25:48,451 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:48,451 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:25:48,452 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:25:48,467 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:25:48,467 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:25:48,467 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:25:48,476 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:25:48,480 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:48,480 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:25:58,510 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:58,511 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:25:58,511 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:25:58,526 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:25:58,526 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:25:58,527 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:25:58,535 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:25:58,539 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:25:58,539 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:26:08,597 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:08,597 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:26:08,598 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:26:08,639 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:26:08,640 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:26:08,641 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:26:08,650 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:26:08,662 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:08,663 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:26:18,692 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:18,693 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:26:18,693 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:26:18,707 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:26:18,708 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:26:18,708 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:26:18,716 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:26:18,721 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:18,721 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:26:28,751 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:28,751 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:26:28,752 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:26:28,767 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:26:28,767 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:26:28,768 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:26:28,776 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:26:28,780 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:28,780 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:26:38,811 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:38,811 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:26:38,812 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:26:38,826 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:26:38,826 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:26:38,827 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:26:38,835 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:26:38,839 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:38,839 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:26:48,870 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:48,870 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:26:48,871 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:26:48,885 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:26:48,885 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:26:48,886 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:26:48,894 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:26:48,899 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:48,899 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:26:58,928 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:58,929 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:26:58,929 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:26:58,944 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:26:58,945 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:26:58,945 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:26:58,954 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:26:58,959 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:26:58,959 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:27:08,990 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:08,991 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:27:08,991 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:27:09,008 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:27:09,008 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:27:09,009 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:27:09,017 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:27:09,022 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:09,022 - [DEBUG] - Process scan complete: 7 active, 142 background skipped
+2025-06-08 17:27:19,051 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:19,051 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:27:19,052 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:27:19,066 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:27:19,067 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:27:19,067 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:27:19,075 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:27:19,080 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:19,080 - [DEBUG] - Process scan complete: 7 active, 140 background skipped
+2025-06-08 17:27:29,117 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:29,118 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:27:29,119 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:27:29,134 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:27:29,134 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:27:29,135 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:27:29,144 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:27:29,149 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:29,149 - [DEBUG] - Process scan complete: 7 active, 140 background skipped
+2025-06-08 17:27:39,180 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:39,180 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:27:39,181 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:27:39,195 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:27:39,195 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:27:39,196 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:27:39,204 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:27:39,208 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:39,208 - [DEBUG] - Process scan complete: 7 active, 140 background skipped
+2025-06-08 17:27:49,238 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:49,239 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:27:49,239 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:27:49,254 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:27:49,254 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:27:49,255 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:27:49,263 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:27:49,268 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:49,268 - [DEBUG] - Process scan complete: 7 active, 139 background skipped
+2025-06-08 17:27:59,299 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:59,299 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:27:59,300 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:27:59,314 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:27:59,314 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:27:59,315 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:27:59,323 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:27:59,328 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:27:59,328 - [DEBUG] - Process scan complete: 7 active, 138 background skipped
+2025-06-08 17:28:09,360 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:09,360 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:28:09,361 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:28:09,375 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:28:09,376 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:28:09,376 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:28:09,384 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:28:09,389 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:09,389 - [DEBUG] - Process scan complete: 7 active, 140 background skipped
+2025-06-08 17:28:19,419 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:19,419 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:28:19,420 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:28:19,435 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:28:19,435 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:28:19,436 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:28:19,444 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:28:19,448 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:19,448 - [DEBUG] - Process scan complete: 7 active, 140 background skipped
+2025-06-08 17:28:29,478 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:29,479 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:28:29,479 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:28:29,495 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:28:29,495 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:28:29,496 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:28:29,504 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:28:29,509 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:29,509 - [DEBUG] - Process scan complete: 7 active, 140 background skipped
+2025-06-08 17:28:39,540 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:39,540 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:28:39,541 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:28:39,556 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:28:39,556 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:28:39,557 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:28:39,565 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:28:39,570 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:39,570 - [DEBUG] - Process scan complete: 7 active, 140 background skipped
+2025-06-08 17:28:49,600 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:49,600 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:28:49,601 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:28:49,616 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:28:49,616 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:28:49,617 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:28:49,625 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:28:49,630 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:49,630 - [DEBUG] - Process scan complete: 7 active, 139 background skipped
+2025-06-08 17:28:59,661 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:59,662 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:28:59,662 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:28:59,677 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:28:59,677 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:28:59,678 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:28:59,686 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:28:59,691 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:28:59,691 - [DEBUG] - Process scan complete: 7 active, 139 background skipped
+2025-06-08 17:29:09,721 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:29:09,721 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:29:09,722 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:29:09,736 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:29:09,736 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:29:09,737 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:29:09,745 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:29:09,750 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:29:09,750 - [DEBUG] - Process scan complete: 7 active, 138 background skipped
+2025-06-08 17:29:20,388 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:29:20,389 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:29:20,389 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:29:20,404 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:29:20,404 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:29:20,405 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:29:20,414 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:29:20,418 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:29:20,419 - [DEBUG] - Process scan complete: 7 active, 141 background skipped
+2025-06-08 17:32:46,778 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:32:46,782 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:32:46,787 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:32:46,947 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:32:46,949 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:32:46,951 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:32:46,992 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:32:47,008 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:32:47,008 - [DEBUG] - Process scan complete: 7 active, 142 background skipped
+2025-06-08 17:32:47,071 - [DEBUG] - Process scan complete: 7 active, 148 background skipped
+2025-06-08 17:32:57,106 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:32:57,106 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:32:57,107 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:32:57,124 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:32:57,125 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:32:57,126 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:32:57,134 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:32:57,139 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:32:57,140 - [DEBUG] - Process scan complete: 7 active, 149 background skipped
+2025-06-08 17:33:07,767 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:07,768 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:33:07,768 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:33:07,784 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:33:07,784 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:33:07,785 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:33:07,793 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:33:07,798 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:07,798 - [DEBUG] - Process scan complete: 7 active, 149 background skipped
+2025-06-08 17:33:17,830 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:17,830 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:33:17,831 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:33:17,847 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:33:17,847 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:33:17,848 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:33:17,858 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:33:17,862 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:17,863 - [DEBUG] - Process scan complete: 7 active, 145 background skipped
+2025-06-08 17:33:27,900 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:27,901 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:33:27,901 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:33:27,919 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:33:27,919 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:33:27,920 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:33:27,930 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:33:27,930 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 17:33:27,935 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:27,935 - [DEBUG] - Process scan complete: 8 active, 145 background skipped
+2025-06-08 17:33:27,935 - [INFO] - Turbo mode activated by both turbo_apps ({'msedge.exe'}) and heavy_apps ({'code.exe', 'msedge.exe'})
+2025-06-08 17:33:38,561 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:38,561 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:33:38,562 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:33:38,578 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:33:38,578 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:33:38,579 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:33:38,589 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:33:38,589 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 17:33:38,594 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:38,594 - [DEBUG] - Process scan complete: 8 active, 145 background skipped
+2025-06-08 17:33:48,630 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:48,630 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:33:48,631 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:33:48,648 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:33:48,648 - [DEBUG] - Found 1 valid windows for code.exe
+2025-06-08 17:33:48,649 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:33:48,660 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:33:48,660 - [DEBUG] - Found 1 valid windows for msedge.exe
+2025-06-08 17:33:48,665 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:48,665 - [DEBUG] - Process scan complete: 8 active, 144 background skipped
+2025-06-08 17:33:58,696 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:58,696 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:33:58,697 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:33:58,711 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:33:58,712 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:33:58,720 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:33:58,723 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:33:58,723 - [DEBUG] - Process scan complete: 6 active, 145 background skipped
+2025-06-08 17:33:58,723 - [INFO] - Turbo mode deactivated
+2025-06-08 17:33:58,723 - [DEBUG] - No heavy processes active
+2025-06-08 17:34:09,355 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:09,355 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:34:09,356 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:34:09,372 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:34:09,372 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:34:09,380 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:34:09,383 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:09,383 - [DEBUG] - Process scan complete: 6 active, 144 background skipped
+2025-06-08 17:34:19,414 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:19,415 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:34:19,415 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:34:19,429 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:34:19,430 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:34:19,438 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:34:19,441 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:19,441 - [DEBUG] - Process scan complete: 6 active, 143 background skipped
+2025-06-08 17:34:29,475 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:29,476 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:34:29,476 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:34:29,491 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:34:29,491 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:34:29,499 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:34:29,501 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:29,501 - [DEBUG] - Process scan complete: 6 active, 143 background skipped
+2025-06-08 17:34:39,533 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:39,533 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:34:39,534 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:34:39,548 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:34:39,548 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:34:39,556 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:34:39,559 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:39,559 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:34:49,591 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:49,592 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:34:49,592 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:34:49,606 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:34:49,607 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:34:49,615 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:34:49,618 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:49,618 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:34:59,649 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:59,649 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:34:59,650 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:34:59,664 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:34:59,665 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:34:59,672 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:34:59,675 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:34:59,675 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:35:09,708 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:09,708 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:35:09,708 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:35:09,723 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:35:09,724 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:35:09,732 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:35:09,735 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:09,735 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:35:19,767 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:19,767 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:35:19,768 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:35:19,782 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:35:19,782 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:35:19,790 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:35:19,792 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:19,793 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:35:29,824 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:29,824 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:35:29,825 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:35:29,840 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:35:29,840 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:35:29,848 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:35:29,850 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:29,851 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:35:39,881 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:39,883 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:35:39,883 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:35:39,898 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:35:39,898 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:35:39,906 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:35:39,908 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:39,908 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:35:49,942 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:49,942 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:35:49,943 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:35:49,958 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:35:49,959 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:35:49,967 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:35:49,969 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:49,969 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:35:59,996 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:35:59,996 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:35:59,996 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:36:00,011 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:36:00,011 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:36:00,019 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:36:00,022 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:00,022 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:36:10,054 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:10,054 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:36:10,055 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:36:10,070 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:36:10,070 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:36:10,078 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:36:10,080 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:10,081 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:36:20,111 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:20,111 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:36:20,112 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:36:20,127 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:36:20,127 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:36:20,135 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:36:20,137 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:20,137 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:36:30,169 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:30,169 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:36:30,170 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:36:30,184 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:36:30,185 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:36:30,192 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:36:30,195 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:30,195 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:36:40,226 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:40,227 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:36:40,227 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:36:40,243 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:36:40,243 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:36:40,251 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:36:40,253 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:40,253 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:36:50,297 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:50,297 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:36:50,298 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:36:50,312 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:36:50,313 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:36:50,321 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:36:50,324 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:36:50,324 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:37:00,354 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:00,355 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:37:00,355 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:37:00,370 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:37:00,370 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:37:00,377 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:37:00,380 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:00,381 - [DEBUG] - Process scan complete: 6 active, 140 background skipped
+2025-06-08 17:37:10,412 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:10,412 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:37:10,413 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:37:10,427 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:37:10,427 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:37:10,436 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:37:10,438 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:10,438 - [DEBUG] - Process scan complete: 6 active, 140 background skipped
+2025-06-08 17:37:20,471 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:20,471 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:37:20,472 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:37:20,487 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:37:20,487 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:37:20,495 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:37:20,498 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:20,498 - [DEBUG] - Process scan complete: 6 active, 140 background skipped
+2025-06-08 17:37:30,530 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:30,530 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:37:30,532 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:37:30,546 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:37:30,547 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:37:30,555 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:37:30,557 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:30,557 - [DEBUG] - Process scan complete: 6 active, 140 background skipped
+2025-06-08 17:37:40,588 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:40,589 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:37:40,589 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:37:40,604 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:37:40,605 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:37:40,612 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:37:40,616 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:40,616 - [DEBUG] - Process scan complete: 6 active, 140 background skipped
+2025-06-08 17:37:50,647 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:50,647 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:37:50,648 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:37:50,662 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:37:50,662 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:37:50,670 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:37:50,671 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:37:50,673 - [DEBUG] - Process scan complete: 6 active, 139 background skipped
+2025-06-08 17:38:00,703 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:00,704 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:38:00,704 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:38:00,719 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:38:00,720 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:38:00,728 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:38:00,730 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:00,731 - [DEBUG] - Process scan complete: 6 active, 139 background skipped
+2025-06-08 17:38:10,760 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:10,761 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:38:10,761 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:38:10,777 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:38:10,777 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:38:10,786 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:38:10,788 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:10,788 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:38:20,818 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:20,818 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:38:20,819 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:38:20,835 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:38:20,835 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:38:20,844 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:38:20,846 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:20,846 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:38:30,879 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:30,879 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:38:30,880 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:38:30,895 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:38:30,896 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:38:30,904 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:38:30,906 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:30,906 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:38:40,938 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:40,939 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:38:40,940 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:38:40,954 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:38:40,954 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:38:40,963 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:38:40,965 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:40,966 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:38:50,999 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:50,999 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:38:51,000 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:38:51,013 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:38:51,013 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:38:51,022 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:38:51,024 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:38:51,024 - [DEBUG] - Process scan complete: 6 active, 140 background skipped
+2025-06-08 17:39:01,055 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:39:01,055 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:39:01,057 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:39:01,073 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:39:01,073 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:39:01,081 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:39:01,084 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:39:01,084 - [DEBUG] - Process scan complete: 6 active, 141 background skipped
+2025-06-08 17:39:11,117 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:39:11,118 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:39:11,118 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:39:11,133 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:39:11,133 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:39:11,141 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:39:11,143 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:39:11,143 - [DEBUG] - Process scan complete: 6 active, 142 background skipped
+2025-06-08 17:39:21,781 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:39:21,781 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:39:21,782 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:39:21,797 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:39:21,797 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:39:21,801 - [DEBUG] - Found 2 valid windows for snippingtool.exe
+2025-06-08 17:39:21,806 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:39:21,809 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:39:21,809 - [DEBUG] - Process scan complete: 7 active, 144 background skipped
+2025-06-08 17:39:32,457 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:39:32,457 - [DEBUG] - Found 1 valid windows for winword.exe
+2025-06-08 17:39:32,458 - [DEBUG] - Found 2 valid windows for applicationframehost.exe
+2025-06-08 17:39:32,474 - [DEBUG] - Found 1 valid windows for textinputhost.exe
+2025-06-08 17:39:32,474 - [DEBUG] - Found 1 valid windows for rtkuwp.exe
+2025-06-08 17:39:32,484 - [DEBUG] - Found 1 valid windows for cmd.exe
+2025-06-08 17:39:32,486 - [DEBUG] - Found 1 valid windows for explorer.exe
+2025-06-08 17:39:32,486 - [DEBUG] - Process scan complete: 6 active, 144 background skipped

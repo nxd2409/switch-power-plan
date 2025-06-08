@@ -7,6 +7,6 @@ __pycache__/
 logs/
 *.log
 activity_debug.txt
-
+details_debug.txt
 # VS Code settings
 .vscode/
