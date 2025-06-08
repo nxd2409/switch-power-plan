@@ -3,10 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+details_debug.txt
+
 # Log files
 logs/
 *.log
 activity_debug.txt
-details_debug.txt
+
 # VS Code settings
 .vscode/
