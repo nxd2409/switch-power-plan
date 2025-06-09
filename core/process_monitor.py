@@ -6,15 +6,12 @@ import win32con
 import time
 from utils.logger import setup_logger
 
-# Initialize logger
 logger = setup_logger('process_monitor', logging.DEBUG)
 
 class ProcessMonitor:
     def __init__(self, heavy_process_names, turbo_config=None):
-        # Store names in lowercase for case-insensitive comparison
         self.heavy_process_names = {name.lower() for name in heavy_process_names}
         
-        # Turbo mode configuration
         self.min_apps_threshold = turbo_config.getint('TurboMode', 'min_apps_threshold', fallback=2) if turbo_config else 2
         self.turbo_apps = {name.strip().lower() for name in turbo_config.get('TurboMode', 'turbo_apps', fallback='').split(',') if name.strip()} if turbo_config else set()
         
@@ -24,9 +21,8 @@ class ProcessMonitor:
         logger.info(f"Turbo apps configured: {self.turbo_apps}")
 
         
-        # Cache state
-        self._cache_lifetime = 2.0  # seconds
-        self._window_cache = {}  # (proc_name, pid) -> (timestamp, has_window)
+        self._cache_lifetime = 2.0  
+        self._window_cache = {}  
         self._last_active_processes = set()
         self._last_turbo_state = (False, set())
         self._last_heavy_state = False
@@ -34,7 +30,6 @@ class ProcessMonitor:
         self._skipped_processes_count = 0
 
     def _get_cached_window_state(self, proc_name, pid):
-        """Get cached window state if still valid"""
         cache_key = (proc_name, pid)
         if cache_key in self._window_cache:
             timestamp, has_window = self._window_cache[cache_key]
@@ -43,11 +38,9 @@ class ProcessMonitor:
         return None
 
     def _update_window_cache(self, proc_name, pid, has_window):
-        """Update the window state cache"""
         self._window_cache[(proc_name, pid)] = (time.time(), has_window)
 
     def _cleanup_cache(self):
-        """Remove expired cache entries"""
         now = time.time()
         expired = []
         for key, (timestamp, _) in self._window_cache.items():
@@ -57,7 +50,6 @@ class ProcessMonitor:
             del self._window_cache[key]
 
     def has_visible_window(self, proc_name, pid):
-        """Check if process has visible and active windows"""
         def callback(hwnd, hwnds):
             try:
                 if win32gui.IsWindowVisible(hwnd):
@@ -65,11 +57,9 @@ class ProcessMonitor:
                     if found_pid == pid:
                         title = win32gui.GetWindowText(hwnd)
                         
-                        # Skip empty or hidden windows, but allow Program Manager
                         if not title and title != "Program Manager":
                             return True
 
-                        # Check window style and size
                         try:
                             style = win32gui.GetWindowLong(hwnd, win32con.GWL_STYLE)
                             if not (style & win32con.WS_VISIBLE):
@@ -81,7 +71,6 @@ class ProcessMonitor:
                             if width <= 50 or height <= 50:
                                 return True
                             
-                            # Valid window found
                             hwnds.append((hwnd, title, width, height))
                             
                         except Exception as e:
@@ -105,7 +94,6 @@ class ProcessMonitor:
             return False
 
     def get_active_processes_with_windows(self):
-        """Get list of running processes with visible windows"""
         current_time = time.time()
         if current_time - self._last_check_time < self._cache_lifetime:
             return self._last_active_processes
@@ -121,19 +109,16 @@ class ProcessMonitor:
                 proc_name = process.info.get('name', '').lower()
                 proc_pid = process.info.get('pid', 0)
                 
-                # Skip known background processes
                 if any(x in proc_name for x in ["svchost", "runtime", "broker", "service", "helper", "system"]):
                     self._skipped_processes_count += 1
                     continue
                 
-                # Check cache
                 cached_state = self._get_cached_window_state(proc_name, proc_pid)
                 if cached_state is not None:
                     if cached_state:
                         active_processes.add(proc_name)
                     continue
                 
-                # Check for visible windows
                 if self.has_visible_window(proc_name, proc_pid):
                     active_processes.add(proc_name)
                     self._update_window_cache(proc_name, proc_pid, True)
@@ -145,22 +130,18 @@ class ProcessMonitor:
 
         logger.debug(f"Process scan complete: {len(active_processes)} active, {self._skipped_processes_count} background skipped")
         
-        # Update cache
         self._last_active_processes = active_processes
         return active_processes
 
     def check_turbo_condition(self):
-        """Check conditions for activating Turbo Mode"""
         try:
             active_processes = self.get_active_processes_with_windows()
             heavy_running_apps = self.heavy_process_names.intersection(active_processes)
             
             turbo_running_apps = {app for app in active_processes if app in self.turbo_apps}
 
-            # Condition 1: At least one app from turbo_apps is running
             condition_turbo_apps = bool(turbo_running_apps)
 
-            # Condition 2: At least min_apps_threshold (default 2) from heavy_process_names are running
             condition_heavy_apps = len(heavy_running_apps) >= self.min_apps_threshold
 
             if condition_turbo_apps or condition_heavy_apps:
@@ -186,7 +167,6 @@ class ProcessMonitor:
             return (False, set())
 
     def is_heavy_process_running(self):
-        """Check if any heavy process is running with visible windows"""
         try:
             active_processes = self.get_active_processes_with_windows()
             heavy_running = self.heavy_process_names.intersection(active_processes)
@@ -204,7 +184,6 @@ class ProcessMonitor:
             return False
 
     def get_heavy_running_apps(self):
-        """Return a list of currently running heavy processes with visible windows"""
         try:
             active_processes = self.get_active_processes_with_windows()
             heavy_running = self.heavy_process_names.intersection(active_processes)

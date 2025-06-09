@@ -17,17 +17,14 @@ def load_config(config_path):
 
     config = configparser.ConfigParser()
     try:
-        # Đọc file với encoding UTF-8
         with open(config_path, 'r', encoding='utf-8') as f:
             config.read_file(f)
             
-        # Basic validation
         if not config.has_section('General') or \
            not config.has_section('PowerPlans') or \
            not config.has_section('Processes'):
             raise configparser.Error("Missing required sections in config file.")
             
-        # Kiểm tra enable_debug_logging
         debug_enabled = config.getboolean('General', 'enable_debug_logging', fallback=False)
         logger = setup_logger(level=logging.DEBUG if debug_enabled else logging.INFO)
         logger.info(f"Debug logging is {'enabled' if debug_enabled else 'disabled'}")
@@ -45,13 +42,11 @@ def load_config(config_path):
         sys.exit(f"Error: Could not read configuration file: {e}")
 
 def main():
-    # Removed the LOG_FILE definition and its usage for startup banner
     logger = logging.getLogger('smart_power_manager')
     logger.debug("Loading configuration...")
     config = load_config(CONFIG_FILE)
     logger.debug("Configuration loaded.")
 
-    # Check for placeholder GUIDs and warn user
     power_settings = config['PowerPlans']
     if "placeholder" in power_settings.get('high_performance_guid', '') or \
        "placeholder" in power_settings.get('balanced_guid', '') or \
@@ -60,14 +55,12 @@ def main():
         logger.warning("Please run 'powercfg /list' in your command prompt and update the GUIDs.")
         logger.warning("The application might not function correctly until the GUIDs are set.")
 
-    # Initialize and run the controller
     logger.debug("Initializing PowerController...")
     try:
         controller = PowerController(config)
         logger.debug("PowerController initialized successfully.")
         logger.info("Starting Smart Power Manager...")
         
-        # Run the controller in the main thread
         controller.run()
             
     except Exception as e:
